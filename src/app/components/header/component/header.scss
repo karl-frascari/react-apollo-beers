@@ -1,0 +1,49 @@
+
+
+header {
+    top: 0;
+	height: 60px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 10px solid #ffc800;
+	background: #0D1313;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+
+	.logo {
+		padding: 10px; 
+		margin-right: 10px;
+		
+		img{
+			width: 36px;
+		}
+    }
+    
+	.site-nav {
+
+		ul {
+			list-style: none;
+			display: flex;
+			margin: 0;
+			padding: 0;
+        }
+        
+		a {
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #CDD0D0;
+			padding: 20px;
+			display: inline-block;
+        }
+        
+		.active {
+			a {
+				font-weight: bold;
+				color: #000000;
+				background: #ffc800;
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+section.address-autocomplete{
+	
+	input{
+		width: 100%;
+		height: 40px;
+		border: none;
+		border-radius: 0px;
+		padding: 25px 25px 25px 10px;
+		font-size: 20px;
+		color: #404040;
+		bottom: 50px;
+		box-sizing: border-box;
+	}
+
+	.search-btn{
+		right: 0;
+		position: absolute;
+		padding: 16px;
+		background: #ffc800;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #0d1313;
+		font-weight: 700;
+	}
+}
+
